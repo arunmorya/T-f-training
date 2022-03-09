@@ -1,0 +1,37 @@
+div{
+    border: 2px double red;
+    width: 500px;
+    padding: 5px;
+}
+
+#d1{
+    position: relative;
+    top: 200px;
+    height: 10em;
+}
+
+
+/* absolute takes reference from parent  */
+#d2{
+    position: absolute;  
+    width: 20%;
+    bottom: 100px;
+    z-index: 13;
+}
+
+#d3{
+    width: 20em;
+    position: fixed;
+    z-index: 12;
+}
+
+#d4{
+    width: 20px;
+    height: 10px;
+    left: 300px;
+    position: sticky;
+}
+
+body{
+    height: 5000px;
+}

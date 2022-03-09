@@ -1,0 +1,19 @@
+.flexbox{
+    display: flex;
+    background-color: blue;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    height: 100px;
+
+}
+
+.flexbox> div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
