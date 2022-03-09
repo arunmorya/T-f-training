@@ -1,0 +1,18 @@
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+
+.box1{
+  border: 3px solid rgba(248, 246, 246, 0.89);
+  width: 400px;
+  height: 250px;
+  flex-basis: 50px;
+  border-color: rgba(248, 246, 246, 0.89);
+}
+
+.score{
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
