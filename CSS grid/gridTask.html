@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div id="one">one</div>
+        <div id="two">Two</div>
+        <div id="three">Three</div>
+        <div id="four">Four</div>
+        <div id="five">five</div>
+        <div id="six">six</div>
+
+    </div>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container > div{
+            background-color: gray;
+            padding: 10px;
+        } 
+        .container>div:nth-child(even)
+        {
+            background-color: lightgray;
+        } 
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(200px,auto);
+            grid-gap: 1em;
+        }
+
+        #one{
+            background-color: brown;
+
+        }
+
+        #two{
+            background-color: purple;
+            grid-column: 2/4;
+        }
+
+        #three{
+            background-color: purple;
+            grid-column: 1/3;
+        }
+
+        #four{
+            background-color: blue;
+            grid-column: 3/3;
+            grid-row: 2/4;
+        }
+    </style>
+</body>
+</html>
