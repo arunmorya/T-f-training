@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background-color: #555;
+  }
+  
+  ul{
+      list-style: none;
+      font-size: 30px;
+      color: rgb(205, 223, 223);
+     
+  }
+
+  .addBtn{
+    padding: 10px;
+    margin: 30px;
+    width: 10%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .txtBox {
+    margin: 30px;
+    border: 2px solid;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  ul li.checked {
+    color: rgb(5, 5, 5);
+    text-decoration: line-through;
+  }
+  
+
+ul li{
+    border: 1px solid;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li button{
+    float: right;
+    background-color: red;
+    font-size: 25px;
+    
+}
+
+.liItem{
+    width: 50%;
+    border: 1px  solid rgb(238, 220, 220);
+}
