@@ -1,38 +1,33 @@
-// function generate(){
+
+function generate(){
    
-//     var txt=document.getElementById("textBox").value;
-//     var listItems=document.createElement("li");
-//     listItems.className="liItem";
-//     t=document.createTextNode(txt);
-//     listItems.appendChild(t);
-//     listItems.setAttribute("onclick","strik();");
+  var txt=document.getElementById("textBox").value;
+  var listItems=document.createElement("li");
+  listItems.className="liItem";
+  t=document.createTextNode(txt);
+  listItems.appendChild(t);
+  listItems.setAttribute("onclick","strik();");
 
 
-//     // ADDING CROSS BUTTON
-//     var pan=document.createElement("span");
-//     var tpan=document.createTextNode("\u00D7")
-//     pan.className="delete";
-//     pan.appendChild(tpan);
-//     pan.setAttribute("onclick","remove();");
-//     listItems.appendChild(pan);
+  // ADDING CROSS BUTTON
+  var pan=document.createElement("button");
+  var tpan=document.createTextNode("\u00D7")
+  pan.className="delete";
+  pan.appendChild(tpan);
+  pan.setAttribute("onclick","remove();");
+  listItems.appendChild(pan);
 
 
-//     it=document.getElementById("items");
+  it=document.getElementById("items");
 
 
-//     it.appendChild(listItems);
-//     document.getElementById("textBox").value="";
-// }
+  it.appendChild(listItems);
+  document.getElementById("textBox").value="";
+}
 
-// var del=document.getElementsByClassName("delete");
-// for(var i=0; i<del.length; i++)
-// {
-//     del[i].onclick=function()
-//     {
-//         var t=this.parentElement;
-//         t.style.display= "none";
-//     }
-// }
+
+
+
 
 function remove()
 {
@@ -71,33 +66,5 @@ function strik(){
 
    
 
-}
-
-
-
-function generate(){
-   
-    var txt=document.getElementById("textBox").value;
-    var listItems=document.createElement("li");
-    listItems.className="liItem";
-    t=document.createTextNode(txt);
-    listItems.appendChild(t);
-    listItems.setAttribute("onclick","strik();");
-
-
-    // ADDING CROSS BUTTON
-    var pan=document.createElement("button");
-    var tpan=document.createTextNode("\u00D7")
-    pan.className="delete";
-    pan.appendChild(tpan);
-    pan.setAttribute("onclick","remove();");
-    listItems.appendChild(pan);
-
-
-    it=document.getElementById("items");
-
-
-    it.appendChild(listItems);
-    document.getElementById("textBox").value="";
 }
 
