@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Fill your code*/
+
+.row1{
+    float: center;
+    height: 15%;
+    padding: 10px;
+    height: 150px;
+    background-color: rgb(48, 25, 6);
+}
+
+.row2{
+    clear: both;
+    height: 700%;
+    padding: 10px;
+    height: 550px;
+    background-color: rgb(137, 93, 148);
+    
+}
+
+
+.row3{
+    clear: both;
+    height: 15%;
+    padding: 10px;
+    height: 150px;
+    background-color: rgb(48, 25, 6);
+    text-align: center;
+}
+
+button{
+    margin: 30px;
+    font-size: 20px;
+    background-color: rgb(137, 93, 148);;
+}
+
+
+  .column {
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: brown;
+  } */
+
+
+.layer1{
+    width: 150px;
+    /* visibility: hidden; */
+}
+
+.layer2{
+    width: 100px;
+    left: 40px;
+    /* visibility: hidden; */
+}
+
+.layer3{
+    width: 80px; 
+    left: 60px; 
+    /* visibility: hidden; */
+}
+
+.layer4{
+    width: 60px;
+    left: 80px;
+    /* visibility: hidden; */
+}
+
+.layer5{
+    width: 50px;
+    left: 100px;
+    /* visibility: hidden; */
+}
